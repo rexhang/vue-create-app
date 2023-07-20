@@ -1,0 +1,28 @@
+### Create
+POST http://127.0.0.1:8111/users
+content-type: application/json
+
+{
+  "name": "rexhang",
+  "guid": "{{$guid}}",
+  "time": "{{$datetime rfc1123|iso8601}}"
+}
+
+### Update
+PATCH http://127.0.0.1:8111/users/1
+content-type: application/json
+
+{
+  "name": "rexhang"
+}
+
+### Read
+GET http://127.0.0.1:8111/users
+
+### Read?
+GET http://127.0.0.1:8111/users
+?id=1
+&name=rexhang
+
+### Delete
+DELETE http://127.0.0.1:8111/users/1

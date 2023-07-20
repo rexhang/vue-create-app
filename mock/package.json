@@ -1,0 +1,15 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch api/demo.json --port 8111 --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}

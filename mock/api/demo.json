@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "rexhanggu"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "rexhanggu"
+  },
+  "users": [
+    {
+      "name": "rexhang",
+      "guid": "ee7a6768-bb2c-423c-ac06-5c7905c035b5",
+      "time": "Wed, 14 Dec 2022 13:20:02 GMT",
+      "id": 1
+    },
+    {
+      "name": "rexhang2",
+      "guid": "908a6bf8-0056-4ad1-bd00-4fa0f23c34f3",
+      "time": "Wed, 14 Dec 2022 13:20:22 GMT",
+      "id": 2
+    }
+  ]
+}
